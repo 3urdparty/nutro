@@ -1,0 +1,91 @@
+-   [x] Fix the accept functionality
+- [  ] show the customer on each delivery
+-   [ ] Fix the UI for the Delivery Show View
+-   [ ] Make Call button work
+-   [ ] Make Chat button work
+-   [ ] Make Copy Button work
+-   [ ] Make The Slider Button work
+        Important:
+-   [ ] Make Address attribute for Customer, delivery
+-   [ ] Go through all code and abstract code into components/partials
+-   [ ] Go through all code and abstract code into
+-   [ ] Fix build errors
+-   [ ] Go through all controllers and remove all method that are not used
+-   [ ] Organize web.php
+-   [ ] Take influence from User and implement patterns in other Models
+-   [ ] Unpaid deliveries
+-   [ ]add RM to price in itemcard
+-   [ ] Add more navigation link in header at larger breakpoints
+-   [ ] Make breadcrumbs work for all links
+-   [ ] Make search work for food items and vendors
+-   [ ] Add flash messages at all important events, like successfull transfer
+-   [ ] ADd Quantity stepper to cartitemcard
+-   [ ] Change styles of different banners
+-   [ ] Make localiztion work
+-   [ ] extend redirect with helper methods for different alerts
+-   [ ] skeletons for inertia
+-   [ ] Make search bar take more space at larger breakpoints
+-   [ ] Make Delivery order over 20rm banner take you to deals
+-   [ ] Add Discounts above 20 in shopping cart and item select
+-   [ ] Fix padding at the top for content slots in applayout
+-   [ ] Add more padding at larger breakpoints in the order process, products page and orders page, vendors
+-   [ ] Fix breadcrumbs in vendor show page
+-   [ ] Add Nutritional information to fooditem, reviews
+-   [ ] Fix pagination so that the buttons are adaptive
+-   [ ] Add Overlay that shows add to cart button and view item button
+-   [ ] Add FoodItem detail page, to navigate to if user selects to expand
+-   [ ] Make Subscribe to newsletter functinoal
+-   [ ] Make Links to facebook, insta, twitter and dribble take you places, including github
+-   [ ] Add views for Vendors
+-   [ ] Group FoodItems by vendors
+-   [ ] Make Deliver to select funcitonal
+-   [ ] Add Notifications index
+-   [ ] Add delivery, review notifications notifications
+-   [ ] Send notifications to device
+-   [ ] Add Badges to header links
+-   [ ] Paginate food items
+-   [ ] Make breadcrumbs functional
+-   [ ] Make arrow take you to deals
+-   [ ] Make footer links take you to the appropriate links
+-   [ ] Get started with nutro takes you to registration on login
+-   [ ] Social login testing
+-   [ ] Change linkedin to apple and make it disabled
+-   [ ] Add tooltips
+-   [ ] Add onboarding for first time users
+-   [ ] Add role switch in header
+-   [ ] Add role registration in profile
+-   [ ] convert all router.visits to inertia.visits
+-   [ ] Flash messages:
+    -   toast service that queues flash messages together, and you can slide them off the screen and dismiss them
+    -   Add differnet banners
+-   [ ] For item added to cart, make toast that has image of item
+-   [ ] Quantity
+-   [ ] Add icons to header
+-   [ ] If item already in cart, increase quantity and display aprropraite
+        message
+-   [ ] Expand shopping cart
+-   [ ] Undoable toast notification for action done
+-   [ ] Animate navigation bar
+-   [ ] Expand Product page
+-   [ ] Generate attributes for models: - First and last name attribute for Customer
+-   [ ] Role switch
+-   [ ] Finish filtering functionality
+-   [ ] Add Light Dark mode toggle
+-   [ ] Remove all Team related code
+-   [ ] clean up JetStream/SocialStream and add roles
+-   [ ] Find a way to normalize user
+-   [ ] Find a way to check the user role
+-   [ ] Enable liking an item without reloading entire page
+        Structural:
+
+-   [ ] Generate Requests for all operations and handle permissions
+-   [ ] Add guards at controller levels
+
+-   [ ] Refactor code base
+-   [ ] Enhance Cart page: - Checklist to select items to create order - Subtotal of selected items - view deals on items and their updated prices
+-   [ ] create order page:
+        Complete place order workflow in Nitro
+        Remove Permissions
+
+-   [ ] Add new address during placing order
+-   [ ] Use policy instead of middleware to check what role user is
